@@ -1,16 +1,114 @@
-# React + Vite
+# 🏥 Sistem Informasi Manajemen Klinik Sentosa (SIM-KS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dokumen ini berisi **flow (alur kerja)** aplikasi untuk memenuhi permintaan dosen agar repository memiliki dokumentasi yang jelas, tidak hanya berisi source code saja.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔐 Kredensial Login (Untuk Demo)
 
-## Expanding the ESLint configuration
+Semua akun menggunakan password: **123**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Role               | Username      | Tugas Utama                           |
+| ------------------ | ------------- | ------------------------------------- |
+| **Resepsionis**    | `resepsionis` | Pendaftaran pasien & antrian          |
+| **Dokter**         | `dokter`      | Pemeriksaan pasien                    |
+| **Apoteker**       | `apotek`      | Racik obat & cek stok                 |
+| **Kasir**          | `kasir`       | Pembayaran & cetak invoice            |
+| **Pemilik Klinik** | `owner`       | Dashboard laporan & arsip rekam medis |
+
+> 
+
+---
+
+# 🎬 Alur Lengkap Sistem (User Flow)
+
+Berikut flow sistem klinik dari awal sampai akhir.
+
+---
+
+## 1️⃣ Pendaftaran Pasien — *Resepsionis*
+
+1. Login sebagai resepsionis.
+2. Klik **Pendaftaran Baru**.
+3. Masukkan data pasien (contoh: "Ibu Ani").
+4. Klik **Daftar**.
+5. Pasien masuk otomatis ke **antrian dokter**.
+
+**Fitur:** Real-time queue tanpa refresh.
+
+---
+
+## 2️⃣ Pemeriksaan Medis — *Dokter*
+
+1. Login sebagai dokter.
+2. Pasien "Ibu Ani" muncul di antrian.
+3. Klik untuk membuka halaman pemeriksaan.
+4. Isi data:
+
+   * Body Map
+   * Vital Sign
+   * Diagnosa (ICD-10 auto-complete)
+   * Resep obat
+5. Klik **Simpan & Kirim ke Apotek**.
+
+**Fitur:** Body map interaktif, rekam medis lengkap, e-prescription.
+
+---
+
+## 3️⃣ Farmasi — *Apoteker*
+
+1. Login sebagai apoteker.
+2. Resep masuk otomatis melalui auto-polling.
+3. Klik resep.
+4. Cek stok obat.
+5. Klik **Selesai Racik & Kirim ke Kasir**.
+
+**Fitur:** Resep real-time tanpa refresh.
+
+---
+
+## 4️⃣ Pembayaran — *Kasir*
+
+1. Login sebagai kasir.
+2. Tagihan pasien muncul otomatis.
+3. Klik invoice.
+4. Biaya jasa dokter & obat dihitung otomatis.
+5. Klik **Konfirmasi Pembayaran**.
+
+(Opsional) Cetak struk pembayaran.
+
+---
+
+## 5️⃣ Laporan & Arsip — *Owner*
+
+1. Login sebagai owner.
+2. Dashboard menampilkan laporan omzet.
+3. Buka Arsip Pasien.
+4. Cari "Ibu Ani".
+5. Buka file rekam medis.
+
+**Fitur:** EMR viewer lengkap & laporan keuangan.
+
+---
+
+# 💻 Cara Menjalankan Aplikasi
+
+Jalankan 2 terminal:
+
+### Terminal 1 — Backend
+
+```
+npx json-server db.json --port 3032 --watch
+```
+
+### Terminal 2 — Frontend
+
+```
+npm run dev
+```
+
+---
+
+Jika perlu, README ini bisa ditambahkan diagram, screenshot, atau ERD.
