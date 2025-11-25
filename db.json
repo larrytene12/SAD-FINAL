@@ -1,0 +1,1018 @@
+{
+  "users": [
+    {
+      "id": "own1",
+      "username": "owner",
+      "password": "123",
+      "fullName": "Dr. Wijaya Kusuma",
+      "role": "pemilik"
+    },
+    {
+      "id": "res1",
+      "username": "resepsionis",
+      "password": "123",
+      "fullName": "Sarah Admin",
+      "role": "resepsionis"
+    },
+    {
+      "id": "doc1",
+      "username": "dokter",
+      "password": "123",
+      "fullName": "dr. Strange, Sp.JP",
+      "role": "dokter",
+      "poli": "Umum"
+    },
+    {
+      "id": "doc2",
+      "username": "doktergigi",
+      "password": "123",
+      "fullName": "drg. Raisa",
+      "role": "dokter",
+      "poli": "Gigi"
+    },
+    {
+      "id": "doc3",
+      "username": "dokteranak",
+      "password": "123",
+      "fullName": "dr. Kak Seto, Sp.A",
+      "role": "dokter",
+      "poli": "Anak"
+    },
+    {
+      "id": "doc4",
+      "username": "dokterkandungan",
+      "password": "123",
+      "fullName": "dr. Boyke, Sp.OG",
+      "role": "dokter",
+      "poli": "Kandungan"
+    },
+    {
+      "id": "apt1",
+      "username": "apotek",
+      "password": "123",
+      "fullName": "Budi Farma",
+      "role": "apotek"
+    },
+    {
+      "id": "kas1",
+      "username": "kasir",
+      "password": "123",
+      "fullName": "Dewi Finance",
+      "role": "kasir"
+    }
+  ],
+  "patients": [
+    {
+      "id": "p1",
+      "rm_code": "RM-001",
+      "name": "Budi Santoso",
+      "nik": "317101",
+      "dob": "1985-05-12",
+      "address": "Jakarta",
+      "phone": "081",
+      "history": []
+    },
+    {
+      "id": "p2",
+      "rm_code": "RM-002",
+      "name": "Siti Aminah",
+      "nik": "317102",
+      "dob": "1992-08-17",
+      "address": "Depok",
+      "phone": "082",
+      "history": []
+    },
+    {
+      "id": "p3",
+      "rm_code": "RM-003",
+      "name": "Joko Widodo",
+      "nik": "317103",
+      "dob": "1978-01-01",
+      "address": "Bekasi",
+      "phone": "083",
+      "history": []
+    },
+    {
+      "id": "p4",
+      "rm_code": "RM-004",
+      "name": "Rina Nose",
+      "nik": "317104",
+      "dob": "1990-03-10",
+      "address": "Bogor",
+      "phone": "084",
+      "history": []
+    },
+    {
+      "id": "p5",
+      "rm_code": "RM-005",
+      "name": "Adit Sopo",
+      "nik": "317105",
+      "dob": "2015-05-05",
+      "address": "Tangsel",
+      "phone": "085",
+      "history": []
+    },
+    {
+      "id": "p6",
+      "rm_code": "RM-006",
+      "name": "Bayi Lala",
+      "nik": "317106",
+      "dob": "2023-01-01",
+      "address": "Jakarta",
+      "phone": "086",
+      "history": []
+    },
+    {
+      "id": "p7",
+      "rm_code": "RM-007",
+      "name": "Ibu Hamilia",
+      "nik": "317107",
+      "dob": "1995-02-02",
+      "address": "Depok",
+      "phone": "087",
+      "history": []
+    },
+    {
+      "id": "p8",
+      "rm_code": "RM-008",
+      "name": "Doni Tata",
+      "nik": "317108",
+      "dob": "2000-07-07",
+      "address": "Bekasi",
+      "phone": "088",
+      "history": []
+    },
+    {
+      "id": "p9",
+      "rm_code": "RM-009",
+      "name": "ddfdf",
+      "nik": "fsdsd",
+      "dob": "2025-11-24",
+      "address": "",
+      "phone": "",
+      "poli": "Kandungan",
+      "history": []
+    },
+    {
+      "id": "p10",
+      "rm_code": "RM-010",
+      "name": "dddds",
+      "nik": "fdddfs",
+      "dob": "2025-11-24",
+      "address": "dfd",
+      "phone": "",
+      "poli": "Umum",
+      "history": []
+    },
+    {
+      "id": "p11",
+      "rm_code": "RM-011",
+      "name": "ffgg",
+      "nik": "fff",
+      "dob": "2025-11-16",
+      "address": "",
+      "phone": "",
+      "poli": "Umum",
+      "history": []
+    },
+    {
+      "id": "p12",
+      "rm_code": "RM-012",
+      "name": "ddsdd",
+      "nik": "s",
+      "dob": "2025-11-17",
+      "address": "s",
+      "phone": "",
+      "poli": "Umum",
+      "history": []
+    },
+    {
+      "id": "p13",
+      "rm_code": "RM-013",
+      "name": "ff",
+      "nik": "d",
+      "dob": "2025-11-24",
+      "address": "",
+      "phone": "",
+      "poli": "Umum",
+      "history": []
+    },
+    {
+      "id": "p14",
+      "rm_code": "RM-014",
+      "name": "x",
+      "nik": "x",
+      "dob": "2025-11-24",
+      "address": "",
+      "phone": "",
+      "poli": "Umum",
+      "history": []
+    },
+    {
+      "id": "p15",
+      "rm_code": "RM-015",
+      "name": "1",
+      "nik": "1",
+      "dob": "2025-11-24",
+      "address": "",
+      "phone": "",
+      "poli": "Umum",
+      "history": []
+    },
+    {
+      "id": "p16",
+      "rm_code": "RM-016",
+      "name": "1",
+      "nik": "1",
+      "dob": "2025-11-24",
+      "address": "",
+      "phone": "333",
+      "poli": "Umum",
+      "history": []
+    },
+    {
+      "id": "p17",
+      "rm_code": "RM-017",
+      "name": "1",
+      "nik": "1",
+      "dob": "2025-11-24",
+      "address": "",
+      "phone": "",
+      "poli": "Umum",
+      "history": []
+    },
+    {
+      "id": "p18",
+      "rm_code": "RM-018",
+      "name": "frankyln",
+      "nik": "93383474834743",
+      "dob": "2025-11-24",
+      "address": "eessdsdaa",
+      "phone": "0813498832",
+      "poli": "Umum",
+      "history": []
+    },
+    {
+      "id": "p19",
+      "rm_code": "RM-019",
+      "name": "franklyn",
+      "nik": "1234",
+      "dob": "2025-11-24",
+      "address": "",
+      "phone": "08136647878",
+      "poli": "Umum",
+      "history": []
+    },
+    {
+      "id": "p20",
+      "rm_code": "RM-020",
+      "name": "sharon",
+      "nik": "123456789",
+      "dob": "2025-11-16",
+      "address": "aasrama",
+      "phone": "",
+      "poli": "Umum",
+      "history": []
+    }
+  ],
+  "medicines": [
+    {
+      "id": "m1",
+      "code": "OBT-001",
+      "name": "Paracetamol 500mg",
+      "stock": 150,
+      "price": 5000,
+      "unit": "Strip",
+      "category": "Obat Bebas"
+    },
+    {
+      "id": "m2",
+      "code": "OBT-002",
+      "name": "Amoxicillin 500mg",
+      "stock": 40,
+      "price": 12000,
+      "unit": "Strip",
+      "category": "Antibiotik"
+    },
+    {
+      "id": "m3",
+      "code": "OBT-003",
+      "name": "Vitamin C 1000mg",
+      "stock": 8,
+      "price": 45000,
+      "unit": "Botol",
+      "category": "Suplemen"
+    },
+    {
+      "id": "m4",
+      "code": "OBT-004",
+      "name": "Obat Batuk Sirup",
+      "stock": 25,
+      "price": 25000,
+      "unit": "Botol",
+      "category": "Obat Bebas"
+    },
+    {
+      "id": "m5",
+      "code": "ALK-001",
+      "name": "Masker Medis (Isi 50)",
+      "stock": 100,
+      "price": 35000,
+      "unit": "Box",
+      "category": "Alkes"
+    },
+    {
+      "id": "m6",
+      "code": "OBT-006",
+      "name": "Obat Kumur Gigi",
+      "stock": 20,
+      "price": 20000,
+      "unit": "Botol",
+      "category": "Gigi"
+    },
+    {
+      "id": "m7",
+      "code": "OBT-007",
+      "name": "Sirup Demam Anak",
+      "stock": 50,
+      "price": 30000,
+      "unit": "Botol",
+      "category": "Anak"
+    },
+    {
+      "id": "m8",
+      "code": "OBT-008",
+      "name": "Asam Folat",
+      "stock": 60,
+      "price": 15000,
+      "unit": "Strip",
+      "category": "Kandungan"
+    }
+  ],
+  "queues": [
+    {
+      "id": "q1",
+      "patientId": "p1",
+      "patientName": "Budi Santoso",
+      "poli": "Umum",
+      "status": "in_consultation",
+      "date": "2025-11-25",
+      "time": "08:00"
+    },
+    {
+      "id": "q2",
+      "patientId": "p2",
+      "patientName": "Siti Aminah",
+      "poli": "Gigi",
+      "status": "in_consultation",
+      "date": "2025-11-25",
+      "time": "08:15"
+    },
+    {
+      "id": "q3",
+      "patientId": "p3",
+      "patientName": "Joko Widodo",
+      "poli": "Umum",
+      "status": "waiting_pharmacy",
+      "date": "2025-11-25",
+      "time": "08:30"
+    },
+    {
+      "id": "q4",
+      "patientId": "p4",
+      "patientName": "Rina Nose",
+      "poli": "Umum",
+      "status": "done",
+      "date": "2025-11-25",
+      "time": "07:45"
+    },
+    {
+      "id": "q5",
+      "patientId": "p5",
+      "patientName": "Adit Sopo",
+      "poli": "Anak",
+      "status": "in_consultation",
+      "date": "2025-11-25",
+      "time": "09:00"
+    },
+    {
+      "id": "q6",
+      "patientId": "p6",
+      "patientName": "Bayi Lala",
+      "poli": "Anak",
+      "status": "in_consultation",
+      "date": "2025-11-25",
+      "time": "09:15"
+    },
+    {
+      "id": "q7",
+      "patientId": "p7",
+      "patientName": "Ibu Hamilia",
+      "poli": "Kandungan",
+      "status": "in_consultation",
+      "date": "2025-11-25",
+      "time": "09:30"
+    },
+    {
+      "id": "q8",
+      "patientId": "p8",
+      "patientName": "Doni Tata",
+      "poli": "Gigi",
+      "status": "done",
+      "date": "2025-11-25",
+      "time": "09:45"
+    },
+    {
+      "id": "q1764028034062",
+      "patientId": "p9",
+      "patientName": "ddfdf",
+      "poli": "Kandungan",
+      "status": "in_consultation",
+      "date": "2025-11-24",
+      "time": "07.47"
+    },
+    {
+      "id": "q1764028824306",
+      "patientId": "p10",
+      "patientName": "dddds",
+      "poli": "Umum",
+      "status": "in_consultation",
+      "date": "2025-11-25",
+      "time": "08.00"
+    },
+    {
+      "id": "q1764028951411",
+      "patientId": "p11",
+      "patientName": "ffgg",
+      "poli": "Umum",
+      "status": "in_consultation",
+      "date": "2025-11-25",
+      "time": "08.02"
+    },
+    {
+      "id": "q1764029040212",
+      "patientId": "p12",
+      "patientName": "ddsdd",
+      "poli": "Umum",
+      "status": "done",
+      "date": "2025-11-25",
+      "time": "08.04"
+    },
+    {
+      "id": "q1764029252700",
+      "patientId": "p13",
+      "patientName": "ff",
+      "poli": "Umum",
+      "status": "done",
+      "date": "2025-11-25",
+      "time": "08.07"
+    },
+    {
+      "id": "q1764029431813",
+      "patientId": "p14",
+      "patientName": "x",
+      "poli": "Umum",
+      "status": "waiting_payment",
+      "date": "2025-11-25",
+      "time": "08.10"
+    },
+    {
+      "id": "q1764029496405",
+      "patientId": "p15",
+      "patientName": "1",
+      "poli": "Umum",
+      "status": "waiting_payment",
+      "date": "2025-11-25",
+      "time": "08.11"
+    },
+    {
+      "id": "q1764029714309",
+      "patientId": "p16",
+      "patientName": "1",
+      "poli": "Umum",
+      "status": "waiting_payment",
+      "date": "2025-11-25",
+      "time": "08.15"
+    },
+    {
+      "id": "q1764029818679",
+      "patientId": "p17",
+      "patientName": "1",
+      "poli": "Umum",
+      "status": "waiting_pharmacy",
+      "date": "2025-11-25",
+      "time": "08.16"
+    },
+    {
+      "id": "q1764031346948",
+      "patientId": "p18",
+      "patientName": "frankyln",
+      "poli": "Umum",
+      "status": "in_consultation",
+      "date": "2025-11-25",
+      "time": "08.42"
+    },
+    {
+      "id": "q1764031433781",
+      "patientId": "p19",
+      "patientName": "franklyn",
+      "poli": "Umum",
+      "status": "done",
+      "date": "2025-11-25",
+      "time": "08.43"
+    },
+    {
+      "id": "q1764031858689",
+      "patientId": "p20",
+      "patientName": "sharon",
+      "poli": "Umum",
+      "status": "done",
+      "date": "2025-11-25",
+      "time": "08.50"
+    }
+  ],
+  "medical_records": [
+    {
+      "id": "mr-hist1",
+      "patientId": "p1",
+      "patientName": "Budi Santoso",
+      "doctorName": "dr. Strange",
+      "date": "2025-10-01",
+      "vitalSigns": {
+        "tensi": "110/70",
+        "suhu": 36.5,
+        "berat": 70
+      },
+      "symptoms": "Checkup",
+      "diagnosis": "Sehat",
+      "notes": "-",
+      "prescription": []
+    },
+    {
+      "id": "mr-hist2",
+      "patientId": "p1",
+      "patientName": "Budi Santoso",
+      "doctorName": "dr. Strange",
+      "date": "2025-11-01",
+      "vitalSigns": {
+        "tensi": "130/80",
+        "suhu": 38.5,
+        "berat": 69
+      },
+      "symptoms": "Demam",
+      "diagnosis": "Febris",
+      "notes": "-",
+      "prescription": []
+    },
+    {
+      "id": "mr-joko1",
+      "patientId": "p3",
+      "patientName": "Joko Widodo",
+      "doctorName": "dr. Strange",
+      "date": "2025-11-25",
+      "vitalSigns": {
+        "tensi": "120/80",
+        "suhu": 36.5,
+        "berat": 75
+      },
+      "symptoms": "Pusing",
+      "diagnosis": "Vertigo",
+      "notes": "Istirahat",
+      "prescription": [
+        {
+          "id": 201,
+          "medId": "m1",
+          "name": "Paracetamol 500mg",
+          "qty": 1,
+          "note": "3x1",
+          "price": 5000
+        }
+      ]
+    },
+    {
+      "id": "mr-1764028780493",
+      "patientId": "p1",
+      "patientName": "Budi Santoso",
+      "doctorName": "Dr. Wijaya Kusuma",
+      "date": "2025-11-24",
+      "vitalSigns": {
+        "tensi": "/",
+        "suhu": "",
+        "berat": ""
+      },
+      "tensi_sys": "",
+      "tensi_dia": "",
+      "suhu": "",
+      "berat": "",
+      "symptoms": "",
+      "diagnosis": "d",
+      "notes": "",
+      "painLocations": [
+        "Kepala"
+      ],
+      "prescription": []
+    },
+    {
+      "id": "mr-1764028870704",
+      "patientId": "p10",
+      "patientName": "dddds",
+      "doctorName": "dr. Strange, Sp.JP",
+      "date": "2025-11-25",
+      "vitalSigns": {
+        "tensi": "2/",
+        "suhu": "7",
+        "berat": "4"
+      },
+      "tensi_sys": "2",
+      "tensi_dia": "",
+      "suhu": "7",
+      "berat": "4",
+      "symptoms": "",
+      "diagnosis": "maag",
+      "notes": "",
+      "painLocations": [
+        "Perut"
+      ],
+      "prescription": []
+    },
+    {
+      "id": "mr-1764028912945",
+      "patientId": "p10",
+      "patientName": "dddds",
+      "doctorName": "dr. Strange, Sp.JP",
+      "date": "2025-11-25",
+      "vitalSigns": {
+        "tensi": "2/",
+        "suhu": "7",
+        "berat": "4"
+      },
+      "tensi_sys": "2",
+      "tensi_dia": "",
+      "suhu": "7",
+      "berat": "4",
+      "symptoms": "",
+      "diagnosis": "maag",
+      "notes": "",
+      "painLocations": [
+        "Perut"
+      ],
+      "prescription": []
+    },
+    {
+      "id": "mr-1764029057460",
+      "patientId": "p12",
+      "patientName": "ddsdd",
+      "doctorName": "Dr. Wijaya Kusuma",
+      "date": "2025-11-25",
+      "vitalSigns": {
+        "tensi": "",
+        "suhu": "",
+        "berat": ""
+      },
+      "tensi": "",
+      "suhu": "",
+      "berat": "",
+      "symptoms": "s",
+      "diagnosis": "dd",
+      "notes": "",
+      "prescription": []
+    },
+    {
+      "id": "mr-1764029282285",
+      "patientId": "p13",
+      "patientName": "ff",
+      "doctorName": "Dr. Wijaya Kusuma",
+      "date": "2025-11-25",
+      "vitalSigns": {
+        "tensi": "/",
+        "suhu": "",
+        "berat": ""
+      },
+      "tensi_sys": "",
+      "tensi_dia": "",
+      "suhu": "",
+      "berat": "",
+      "symptoms": "dd",
+      "diagnosis": "d",
+      "notes": "",
+      "painLocations": [
+        "Dada"
+      ],
+      "prescription": []
+    },
+    {
+      "id": "mr-1764029446388",
+      "patientId": "p14",
+      "patientName": "x",
+      "doctorName": "Dr. Wijaya Kusuma",
+      "date": "2025-11-25",
+      "vitalSigns": {
+        "tensi": "",
+        "suhu": "",
+        "berat": ""
+      },
+      "tensi": "",
+      "suhu": "",
+      "berat": "",
+      "symptoms": "c",
+      "diagnosis": "c",
+      "notes": "",
+      "prescription": []
+    },
+    {
+      "id": "mr-1764029513386",
+      "patientId": "p15",
+      "patientName": "1",
+      "doctorName": "Dr. Wijaya Kusuma",
+      "date": "2025-11-25",
+      "vitalSigns": {
+        "tensi": "",
+        "suhu": "",
+        "berat": ""
+      },
+      "tensi": "",
+      "suhu": "",
+      "berat": "",
+      "symptoms": "1",
+      "diagnosis": "1",
+      "notes": "",
+      "prescription": []
+    },
+    {
+      "id": "mr-1764029726401",
+      "patientId": "p16",
+      "patientName": "1",
+      "doctorName": "Dr. Wijaya Kusuma",
+      "date": "2025-11-25",
+      "vitalSigns": {
+        "tensi": "",
+        "suhu": "",
+        "berat": "",
+        "symptoms": "d",
+        "diagnosis": "d",
+        "notes": ""
+      },
+      "diagnosis": "d",
+      "symptoms": "d",
+      "prescription": []
+    },
+    {
+      "id": "mr-1764029837428",
+      "patientId": "p17",
+      "patientName": "1",
+      "doctorName": "Dr. Wijaya Kusuma",
+      "date": "2025-11-25",
+      "vitalSigns": {
+        "tensi": "",
+        "suhu": "",
+        "berat": "",
+        "symptoms": "1",
+        "diagnosis": "1",
+        "notes": ""
+      },
+      "diagnosis": "1",
+      "symptoms": "1",
+      "prescription": [
+        {
+          "id": 1764029830127,
+          "medId": "m4",
+          "name": "Obat Batuk Sirup",
+          "qty": 1,
+          "note": "3x1 Sesudah Makan",
+          "price": 25000
+        }
+      ]
+    },
+    {
+      "id": "mr-1764031489262",
+      "patientId": "p19",
+      "patientName": "franklyn",
+      "doctorName": "dr. Strange, Sp.JP",
+      "date": "2025-11-25",
+      "vitalSigns": {
+        "tensi": "190",
+        "suhu": "34",
+        "berat": "65",
+        "symptoms": "sakit perut",
+        "diagnosis": "kangker",
+        "notes": ""
+      },
+      "diagnosis": "kangker",
+      "symptoms": "sakit perut",
+      "prescription": [
+        {
+          "id": 1764031487396,
+          "medId": "m4",
+          "name": "Obat Batuk Sirup",
+          "qty": 1,
+          "note": "3x1 Sesudah Makan",
+          "price": 25000
+        }
+      ]
+    },
+    {
+      "id": "mr-1764031976505",
+      "patientId": "p20",
+      "patientName": "sharon",
+      "doctorName": "dr. Strange, Sp.JP",
+      "date": "2025-11-25",
+      "vitalSigns": {
+        "tensi": "102",
+        "suhu": "37",
+        "berat": "67",
+        "symptoms": "sakit perut",
+        "diagnosis": "asam lambung",
+        "notes": ""
+      },
+      "diagnosis": "asam lambung",
+      "symptoms": "sakit perut",
+      "prescription": [
+        {
+          "id": 1764031964219,
+          "medId": "m3",
+          "name": "Vitamin C 1000mg",
+          "qty": 1,
+          "note": "3x1 Sesudah Makan",
+          "price": 45000
+        },
+        {
+          "id": 1764031972260,
+          "medId": "m2",
+          "name": "Amoxicillin 500mg",
+          "qty": 1,
+          "note": "3x1 Sesudah Makan",
+          "price": 12000
+        }
+      ]
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": "rx-q3",
+      "queueId": "q3",
+      "patientName": "Joko Widodo",
+      "status": "waiting_prep",
+      "items": [
+        {
+          "id": 201,
+          "medId": "m1",
+          "name": "Paracetamol 500mg",
+          "qty": 1,
+          "note": "3x1",
+          "price": 5000
+        }
+      ]
+    },
+    {
+      "id": "rx-q8",
+      "queueId": "q8",
+      "patientName": "Doni Tata",
+      "status": "paid",
+      "items": [
+        {
+          "id": 801,
+          "medId": "m6",
+          "name": "Obat Kumur Gigi",
+          "qty": 1,
+          "note": "Kumur Pagi Sore",
+          "price": 20000
+        }
+      ]
+    },
+    {
+      "id": "rx-q4",
+      "queueId": "q4",
+      "patientName": "Rina Nose",
+      "status": "paid",
+      "items": []
+    },
+    {
+      "id": "rx-1764029837461",
+      "queueId": "q1764029818679",
+      "patientName": "1",
+      "items": [
+        {
+          "id": 1764029830127,
+          "medId": "m4",
+          "name": "Obat Batuk Sirup",
+          "qty": 1,
+          "note": "3x1 Sesudah Makan",
+          "price": 25000
+        }
+      ],
+      "status": "waiting_prep"
+    },
+    {
+      "id": "rx-1764031489287",
+      "queueId": "q1764031433781",
+      "patientName": "franklyn",
+      "items": [
+        {
+          "id": 1764031487396,
+          "medId": "m4",
+          "name": "Obat Batuk Sirup",
+          "qty": 1,
+          "note": "3x1 Sesudah Makan",
+          "price": 25000
+        }
+      ],
+      "status": "paid"
+    },
+    {
+      "id": "rx-1764031976530",
+      "queueId": "q1764031858689",
+      "patientName": "sharon",
+      "items": [
+        {
+          "id": 1764031964219,
+          "medId": "m3",
+          "name": "Vitamin C 1000mg",
+          "qty": 1,
+          "note": "3x1 Sesudah Makan",
+          "price": 45000
+        },
+        {
+          "id": 1764031972260,
+          "medId": "m2",
+          "name": "Amoxicillin 500mg",
+          "qty": 1,
+          "note": "3x1 Sesudah Makan",
+          "price": 12000
+        }
+      ],
+      "status": "paid"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TRX-001",
+      "date": "2025-11-25",
+      "patientName": "Rina Nose",
+      "total": 160000,
+      "items": []
+    },
+    {
+      "id": "TRX-1764029536520",
+      "date": "2025-11-25",
+      "patientName": "ff",
+      "total": 160000,
+      "items": []
+    },
+    {
+      "id": "TRX-1764031551968",
+      "date": "2025-11-25",
+      "patientName": "franklyn",
+      "total": 185000,
+      "items": [
+        {
+          "id": 1764031487396,
+          "medId": "m4",
+          "name": "Obat Batuk Sirup",
+          "qty": 1,
+          "note": "3x1 Sesudah Makan",
+          "price": 25000
+        }
+      ]
+    },
+    {
+      "id": "TRX-1764032070937",
+      "date": "2025-11-25",
+      "patientName": "sharon",
+      "total": 217000,
+      "items": [
+        {
+          "id": 1764031964219,
+          "medId": "m3",
+          "name": "Vitamin C 1000mg",
+          "qty": 1,
+          "note": "3x1 Sesudah Makan",
+          "price": 45000
+        },
+        {
+          "id": 1764031972260,
+          "medId": "m2",
+          "name": "Amoxicillin 500mg",
+          "qty": 1,
+          "note": "3x1 Sesudah Makan",
+          "price": 12000
+        }
+      ]
+    },
+    {
+      "id": "TRX-1764032321157",
+      "date": "2025-11-25",
+      "patientName": "Doni Tata",
+      "total": 180000,
+      "items": [
+        {
+          "id": 801,
+          "medId": "m6",
+          "name": "Obat Kumur Gigi",
+          "qty": 1,
+          "note": "Kumur Pagi Sore",
+          "price": 20000
+        }
+      ]
+    }
+  ]
+}
